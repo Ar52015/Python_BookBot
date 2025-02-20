@@ -24,6 +24,7 @@ def file_reader (path_to_file):
     with open (path_to_file) as f:
         contents = f.read ()
 
+        #Printing the name of the file
         file_name = os.path.basename(path_to_file)
         print (f"--- Begin report of {file_name} ---\n")
 
