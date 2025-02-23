@@ -45,4 +45,5 @@ def file_reader (path_to_file):
             print ("The", "'"+key+"'", "character was found", value, "times")
 
 #Calling the main function
-main()
+if __name__ == "__main__":
+    main()
